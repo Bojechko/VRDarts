@@ -2139,7 +2139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1502472674}
-  - component: {fileID: 1502472673}
+  - component: {fileID: 1502472672}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2147,7 +2147,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1502472673
+--- !u!114 &1502472672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2156,12 +2156,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1502472671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8af131d71a1eba34c83e46df8dfbf6b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cfcd36406cbf3b4abc48ee513e35e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScore: 0
-  text: 
-  ShowScore: {fileID: 704354239}
+  scoreText: {fileID: 0}
 --- !u!4 &1502472674
 Transform:
   m_ObjectHideFlags: 0
