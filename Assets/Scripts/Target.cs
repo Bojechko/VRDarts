@@ -11,11 +11,7 @@ public class Target : MonoBehaviour
     
     public static event Action AddScore;
 
-
-    private static IEnumerator Wait(float time)
-    {
-        yield return new WaitForSeconds(time);
-    }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out IDart dart))
