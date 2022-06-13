@@ -7,7 +7,7 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     [SerializeField] public int score = 5;
-    [SerializeField] private float timeUntilDisappear = 1f;
+    
     
     
     public static event Action AddScore;
